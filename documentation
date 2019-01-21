@@ -1,0 +1,8 @@
+How do i setup strapi cms
+
+1) npm install strapi@alpha -g
+2) strapi new NodeJsProject
+3) cd NodeJsProject
+4) strapi start
+5) run using this url: http://localhost:1337/admin
+ 

@@ -1,0 +1,29 @@
+{
+  "connection": "default",
+  "collectionName": "skills",
+  "info": {
+    "name": "skills",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "skill_name": {
+      "default": "",
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "default": "Write description",
+      "type": "text",
+      "required": true
+    },
+    "icon": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

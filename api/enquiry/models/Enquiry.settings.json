@@ -1,0 +1,33 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "enquiry",
+    "description": "data submit from frontend"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "default": "",
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "default": "",
+      "type": "email",
+      "required": true
+    },
+    "message": {
+      "default": "Pls fill the message",
+      "type": "text",
+      "required": true
+    },
+    "subject": {
+      "default": "Subject",
+      "type": "text",
+      "required": true
+    }
+  }
+}

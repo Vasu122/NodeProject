@@ -1,0 +1,28 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "profile",
+    "description": "I will create profile documentation."
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "default": "anonymous",
+      "type": "string",
+      "required": true
+    },
+    "message": {
+      "default": "",
+      "type": "text",
+      "required": true
+    },
+    "email": {
+      "default": "",
+      "type": "email",
+      "required": true
+    }
+  }
+}
